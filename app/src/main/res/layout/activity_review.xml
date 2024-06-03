@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReviewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cek Kembali Isian Data"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_gravity="left"
+            android:paddingBottom="16dp" />
+
+        <!-- Test Type -->
+        <TextView
+            android:id="@+id/label_test_type_review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Tes"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/text_test_type_review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp" />
+
+        <!-- Confirmation Date -->
+        <TextView
+            android:id="@+id/label_confirmation_date_review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Terkonfirmasi"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/text_confirmation_date_review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp" />
+
+        <!-- NIK -->
+        <TextView
+            android:id="@+id/label_nik_review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIK"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/text_nik_review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp" />
+
+        <!-- Name -->
+        <TextView
+            android:id="@+id/label_name_review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/text_name_review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp" />
+
+        <!-- Birth Date -->
+        <TextView
+            android:id="@+id/label_birth_date_review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/text_birth_date_review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp" />
+
+        <!-- Gender -->
+        <TextView
+            android:id="@+id/label_gender_review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/text_gender_review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp" />
+
+        <!-- Relationship -->
+        <TextView
+            android:id="@+id/label_relationship_review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hubungan Dengan Anda"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/text_relationship_review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp" />
+
+        <!-- Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ubah"
+                android:background="@color/black"
+                android:layout_marginEnd="8dp"/>
+
+            <Button
+                android:id="@+id/buttonSubmitReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cek Hasil Tes"
+                android:background="@color/black"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
